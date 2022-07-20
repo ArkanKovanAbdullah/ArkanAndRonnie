@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Survey Form</title>
@@ -9,30 +10,30 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <h1 id="title" >freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <h1 class="textCenter textColor" id="title" >freeCodeCamp Survey Form</h1>
+    <p class="textCenter textColor" id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="" id="survey-form">
-        <label for="" id="name-label">Username: </label>
-        <input type="text" id="name" placeholder="enter your username" value="" name="name" required>
-        <label for="" id="email-label">Email: </label>
-        <input type="email" id="email" placeholder="enter your email address" value="" name=""email required>
-        <label for="" id="number-label">Number: </label>
-        <input type="number" id="number" placeholder="enter your number" max="1000" min="-1000" value="" name="number" required>
+        <label class= "block textColor fontFamilly" for="" id="name-label">Name: </label>
+        <input class= "block" type="text" id="name" placeholder="enter your username" value="" name="name" required>
+        <label class= "block textColor fontFamilly" for="" id="email-label">Email: </label>
+        <input class= "block" type="email" id="email" placeholder="enter your email address" value="" name=""email required>
+        <label class= "block textColor fontFamilly" for="" id="number-label">Number: </label>
+        <input class= "block" type="number" id="number" placeholder="enter your number" max="1000" min="-1000" value="" name="number" required>
 
-        <select id="dropdown">
+        <select class= "block" id="dropdown">
             <option> Male </option>
             <option> Female </option>
         </select>
-        <input type="radio" value="Nan" name ="group1">
-        <input type="radio" value="Bab" name="group1">
-                <input type="radio" value="Nan" name ="group2">
-        <input type="radio" value="Bab" name="group2">
+        <input class= "block" type="radio" value="Nan" name ="group1">
+        <input class= "block" type="radio" value="Bab" name="group1">
+        <input class= "block" type="radio" value="Nan" name ="group2">
+        <input  class= "block" type="radio" value="Bab" name="group2">
 
-        <input type="checkbox" value="i dont know">
-        <input type="checkbox" value="i do know">
-        <textarea  rows="4" cols="50">
+        <input class= "block" type="checkbox" value="i dont know">
+        <input class= "block" type="checkbox" value="i do know">
+        <textarea  class= "block" rows="4" cols="50">
         </textarea>
-        <button type="submit" id="submit">Submit</button>
+        <button class="block" type="submit" id="submit">Submit</button>
     </form>
 </body>
 </html>

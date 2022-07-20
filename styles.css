@@ -1,0 +1,40 @@
+.textCenter{
+    text-align: center;
+}
+
+body{
+    background-image: url(8GrjwBgms163Y5RgidsoLKoEAZDEiyGnIPNjAKWRO58.webp);
+}
+
+#survey-form{
+    margin: auto;
+    width: 50%;
+    width: 50%;
+    height:auto; 
+    position:relative;
+    background-color: rgba(37, 38, 68, 0.80);
+    border-radius: 15px;
+}
+
+.block{
+    display: block;
+    margin-left: 15px;
+}
+
+.textColor{
+    color: aliceblue;
+}
+
+.fontFamilly{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.center{
+    position: absolute;
+    right: 50%;
+}
+
+.inlineblock{
+    display: inline-block;
+}
